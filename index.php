@@ -8,12 +8,9 @@ $bio = "This is an example biography. Users can set their own biographies when s
 
 <div class="container">
   <div class="row">
-
     <div class="col-lg-3 col-sm-6">
-
       <div class="card hovercard">
         <div class="cardheader" style="background: url('images/header4.jpg');  background-size: cover;">
-
         </div>
         <div id="profile_pic"  class="avatar">
           <img alt="" src="images/sam.jpg">
@@ -27,24 +24,50 @@ $bio = "This is an example biography. Users can set their own biographies when s
           <div class="desc">Computer Science</div>
         </div>
         <div class="bottom">
-          <div id="bio_button" class="btn btn-primary btn-twitter btn-sm">B</div>
-          <div id="stats_button" class="btn btn-primary btn-twitter btn-sm">S</div>
-          <div id="news_button" class="btn btn-primary btn-twitter btn-sm">N</div>
-          <div id="bio_button" class="btn btn-primary btn-twitter btn-sm"></div>
+          <input type="button" id="bio_button" class="btn btn-primary btn-twitter btn-sm" value="B" />
+          <input type="button" id="stats_button" class="btn btn-primary btn-twitter btn-sm" value="S" />
+          <input type="button" id="news_button" class="btn btn-primary btn-twitter btn-sm" value="N" />
+          <input type="button" id="etc_button" class="btn btn-primary btn-twitter btn-sm" />
         </div>
       </div>
-
-
     </div>
- 
-
     <div class="col-lg-9 col-sm-6">
-
-      <div id="special" class="space">
-                        
+      <div id="special" class="space">               
       </div>   
     </div>
- </div> 
+  </div> 
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2 col-sm-6">
+      <div class="sidenav">
+        
+      </div>
+    </div>
+    <div class="col-lg-2 col-sm-6">
+      <div class="app-box"></div>
+      <div class="app-box"></div> 
+      <div class="app-box"></div> 
+      <div class="app-box"></div> 
+      <div class="app-box"></div> 
+      <div class="app-box"></div>    
+    </div>  
+    <div class="col-lg-2 col-sm-6">
+      <div class="app-box"></div>  
+      <div class="app-box"></div> 
+      <div class="app-box"></div> 
+      <div class="app-box"></div> 
+      <div class="app-box"></div> 
+      <div class="app-box"></div>  
+    </div> 
+    <div class="col-lg-6 col-sm-6">
+      <div class="status-box"></div> 
+      <div class="status-box"></div>          
+    </div>   
+    </div>
+  </div> 
+</div>
 
 
    <script language="javascript" type="text/javascript" src="dist/js/jquery.js"></script>
@@ -57,6 +80,11 @@ $bio = "This is an example biography. Users can set their own biographies when s
    var html;
 
    $(document).ready(function(){
+
+    //$(".space").fadeIn(2000);
+    //$(".sidenav").fadeIn(2000);
+    //$(".app-box").fadeIn(2000);
+    //$(".status-box").fadeIn(2000);
 
     $("#bio_button").click(function(){
       selection = "bio";
@@ -72,9 +100,10 @@ $bio = "This is an example biography. Users can set their own biographies when s
     $("#news_button").click(function(){
       $('#text').text(html);
     });
+
   });
 
-   function generateHtml(user_choice)
+   function generateHtml(user_choice, additional_text)
    {
       if(user_choice == "bio")
       {

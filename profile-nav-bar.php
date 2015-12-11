@@ -1,39 +1,25 @@
-
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Society of Sales Engineers</a>
+            <a href="#" class="navbar-brand">Society of Sales Engineers</a>
         </div>
-    
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Works</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact</a></li>
-            <li>
-              <a class="btn btn-default btn-outline btn-circle"  data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Categories</a>
-            </li>
-          </ul>
-          <ul class="collapse nav navbar-nav nav-collapse" id="nav-collapse1">
-            <li><a href="#">Web design</a></li>
-            <li><a href="#">Development</a></li>
-            <li><a href="#">Graphic design</a></li>
-            <li><a href="#">Print</a></li>
-            <li><a href="#">Motion</a></li>
-            <li><a href="#">Mobile apps</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav><!-- /.navbar -->
-    
+        <div class="">
+      <ul class="nav navbar-nav">
+       
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                        <span class="glyphicon glyphicon-user"></span> Sam B.<b class="caret"></b>
+                    </a>
+            <ul class="dropdown-menu">
+              <li class="sub-option"><a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a></li>
+              <li class="divider"></li>
+              <li class="sub-option"><a href="#"><span class="glyphicon glyphicon-share"></span> Logout</a></li>
+            </ul>
+        </li>
+      </ul><!-- /.navbar-right -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</div><!-- /.navbar -->
+<!--/.navbar -->

@@ -1,7 +1,39 @@
+/*
+  Main Buttons
+  */
 
+#bio_button
+{
+  background-color: #039BE5;
+  border-color: #039BE5;
+}
+
+#news_button
+{
+  background-color: #FDD835;
+  border-color: #FDD835;
+}
+
+#stats_button
+{
+  background-color: #43A047;
+  border-color: #43A047;
+}
+
+#etc_button
+{
+  background-color: #F4511E;
+  border-color: #F4511E;
+}
+  
 /*
   Special Divs
-*/
+  */
+
+body
+{
+  background-color: rgba(214, 224, 226, 0.2);
+}
 
 .bio
 {
@@ -16,39 +48,78 @@
 
 .space
 {
-  box-shadow: 0px 0px 10px #888888;
+  box-shadow: 0px 0px 5px #888888;
   margin: 10px 0 20px 0;
   height: 335px;
   background-color: black;
   border-radius: 3px;
-  background-color: rgba(214, 224, 226, 0.2);
+  background-color: #fff;
+    margin-top: 80px;
+ 
+ 
+}
+
+.status-box
+{
+  box-shadow: 0px 0px 5px #888888;
+  margin: 10px 0 20px 0;
+  height: 275px;
+  background-color: black;
+  border-radius: 3px;
+  background-color: #fff;
+  
+}
+
+.app-box
+{
+  box-shadow: 0px 0px 5px #888888;
+  margin: 10px 1% 20px 0;
+  height: 100px;
+  background-color: black;
+  border-radius: 3px;
+  background-color: #fff;
+  
+}
+
+.sidenav
+{
+    padding-top: 0;
+    margin: 10px 0 20px 0;
+    background-color: #fff;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: 0px 0px 5px #888888;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 500px;
+    
 }
 
 /*
 Navigation
 */
-.navbar-brand { position: relative; z-index: 2; }
+.navbar-default
+{
+  background-color: #0dad88;
+}
 
-.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 25;
+}
 
-.navbar .navbar-collapse { position: relative;}
-.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
 
-.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
-.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
-.navbar.navbar-inverse .nav-collapse { background-color: #222; }
-.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
-.nav-collapse>li { float: right; }
-
-.btn.btn-circle { border-radius: 50px; }
-.btn.btn-outline { background-color: transparent; }
-
-@media screen and (max-width: 767px) {
-    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
-    
-    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
-    .navbar .nav-collapse .navbar-form { margin: 0; }
-    .nav-collapse>li { float: none; }
+.dropdown-menu{
+    background-color: #778899;
 }
 
 /**
@@ -56,7 +127,7 @@ Navigation
  */
 .card {
     padding-top: 20px;
-    margin: 10px 0 20px 0;
+    margin: 80px 0 20px 0;
     background-color: rgba(214, 224, 226, 0.2);
     border-top-width: 0;
     border-bottom-width: 2px;
@@ -65,7 +136,7 @@ Navigation
     border-radius: 3px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    box-shadow: none;
+    box-shadow: 0px 0px 5px #888888;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -244,7 +315,7 @@ Navigation
     padding-top: 0;
     overflow: hidden;
     text-align: center;
-    background-color: rgba(214, 224, 226, 0.2);
+    background-color: #fff;
 }
 
 .card.hovercard .cardheader {
