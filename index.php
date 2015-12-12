@@ -1,9 +1,11 @@
 
 <?php
+$admin = true;
 include "header.php";
 include "profile-nav-bar.php";
 
 $bio = "This is an example biography. Users can set their own biographies when setting up their accounts. <br /> -Sam";
+
 ?> 
 
 <div class="container">
@@ -69,10 +71,8 @@ $bio = "This is an example biography. Users can set their own biographies when s
   </div> 
 </div>
 
-
    <script language="javascript" type="text/javascript" src="dist/js/jquery.js"></script>
    <script language="javascript" type="text/javascript" src="dist/js/bootstrap.js"></script>
-   
 
    <script language="javascript" type="text/javascript">
 
@@ -118,13 +118,9 @@ $bio = "This is an example biography. Users can set their own biographies when s
 
    </script>
 
- </body>
-
-
  <?php
  include "footer.php";
  ?>
 
- </html>
 
 

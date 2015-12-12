@@ -14,8 +14,11 @@
                     </a>
             <ul class="dropdown-menu">
               <li class="sub-option"><a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a></li>
+              <?php if($admin === true && isset($officerpanel) === false) echo "<li class='sub-option'><a href='officer-panel.php'><span class='glyphicon glyphicon-th'></span> Officer Panel</a></li>";
+                else echo "<li class='sub-option'><a href='index.php'><span class='glyphicon glyphicon-home'></span> Profile Home</a></li>";?>
               <li class="divider"></li>
               <li class="sub-option"><a href="#"><span class="glyphicon glyphicon-share"></span> Logout</a></li>
+
             </ul>
         </li>
       </ul><!-- /.navbar-right -->
