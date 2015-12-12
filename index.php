@@ -42,11 +42,7 @@ $bio = "This is an example biography. Users can set their own biographies when s
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-2 col-sm-6">
-      <div class="sidenav">
-        
-      </div>
-    </div>
+    
     <div class="col-lg-2 col-sm-6">
       <div class="app-box"></div>
       <div class="app-box"></div> 
@@ -63,8 +59,20 @@ $bio = "This is an example biography. Users can set their own biographies when s
       <div class="app-box"></div> 
       <div class="app-box"></div>  
     </div> 
-    <div class="col-lg-6 col-sm-6">
-      <div class="status-box"></div> 
+    <div class="col-lg-8 col-sm-6">
+      <div class="status-box">
+        <div class="status-header">
+          <span>Sam Belcastro - Treasurer - Data Analyst<br />
+          Today : 3:44 PM</span>
+        </div>
+        <div class="status-body">
+          <span>Hello!<br />As you guys know out first meeting will be held on January 16th. To kick of the year...........</span>
+        </div>  
+        <hr>
+        <div class="status-footer">
+          <span>Footer (In Progress)</span>
+        </div>
+      </div> 
       <div class="status-box"></div>          
     </div>   
     </div>

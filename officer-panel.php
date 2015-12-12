@@ -11,7 +11,7 @@ include "profile-nav-bar.php";
 	<div class="row">
 
 		<div class="col-lg-7 col-sm-6">
-			<div class="message-creator"><h1>Message Creator</h1></div>
+			<div class="message-creator"></div>
 		</div>
 		<div class="col-lg-5 col-sm-6">
 			<div class="fixed-view top-pad">
@@ -144,7 +144,7 @@ include "profile-nav-bar.php";
 									<td>0</td>
 									<td>7</td>
 									<td>0</td>
-									<?php if($position === "treasurer") echo '<td><div id="upgrade_button" class="btn btn-primary btn-twitter btn-sm"><center><span class="glyphicon glyphicon-arrow-up"></center></span><div></td>'?>
+									<?php if($position === "treasurer") echo '<td><a href="index.php"><span class="glyphicon glyphicon-arrow-up" style="color: green;"></span></a></td>'?>
 								</tr>
 
 
@@ -164,6 +164,7 @@ include "profile-nav-bar.php";
 
 <script language="javascript" type="text/javascript" src="dist/js/jquery.js"></script>
 <script language="javascript" type="text/javascript" src="dist/js/bootstrap.js"></script>
+
 
 <?php
 include "footer.php";
