@@ -34,7 +34,31 @@ $bio = "This is an example biography. Users can set their own biographies when s
       </div>
     </div>
     <div class="col-lg-9 col-sm-6">
-      <div id="special" class="space">               
+      <div id="special" class="space"> 
+
+     
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        
+                    </div>
+
       </div>   
     </div>
   </div> 

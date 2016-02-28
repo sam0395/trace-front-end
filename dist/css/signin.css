@@ -1,0 +1,19 @@
+
+body,html
+{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background-color: #F8F8F8;
+}
+
+
+.header-bar{
+	height: 10%;
+	background-color: #FBC02D;
+}
+
+.signin-container{
+	padding-top: 11%;
+	text-align: center;
+}
